@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taqueria Faraon🌮👳‍♂️</title> 
+</head>
+<body>
+    <header>
+        <img src="Tacos-logo-cartoon-design-vector-Graphics-7342823-1-1-580x387.jpg" width="150px" alt="logo taco">
+        <nav>
+            <ul>
+                <li>inicio</li>
+                <li>acerca de</li>
+                <li>menú</li>
+                <li>contacto</li>
+            </ul>
+      
+      <h1>🌮Taqueria El Faraon👳‍♂️</h1>
+      <img src="tacos-on-a-rack-stand-ebcuh2kma3wfn4l7.webp" width="1900px" alt="fondo taco">
+        </nav>
+    </header>
+
+    <main>
+        <section>
+        <!-- sección acerca de -->
+            <h2>ACERCA DE</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt cum quam porro officia iusto quisquam recusandae, quibusdam atque labore molestias hic illum illo aut odit facere eos dolorem ratione ipsam id assumenda sunt! Officia, nobis maxime qui tempore doloremque saepe asperiores at hic cumque fuga provident quo facere quos? Debitis nihil doloribus aperiam odio cumque alias ratione repellat ab impedit, reprehenderit nisi nostrum odit nemo, nesciunt iure quod deleniti? Illum quisquam tempora at nostrum. Dolore accusantium praesentium sit saepe asperiores autem cum enim unde nesciunt, perferendis itaque maxime magnam architecto? Provident omnis aliquam totam dolorum quisquam voluptatibus reprehenderit alias eligendi?
+
+            </P>
+        </section>
+        <section>
+            <!-- seecion menú -->
+            <h2>MENÚ</h2>
+            <h3>Tacos</h3>
+            <ol>
+                <li>Suadero................................ $15.00</li>
+                <li>Longaniza.............................. $15.00</li>
+                <li>Pastor................................. $10.00</li>
+                <li>Chuleta................................ $15.00</li>
+            </ol>
+            <h3>Especialidades</h3>
+            <dl>
+                <dt>Campechano............................. $15.00</dt>
+                <dd>Suadero + Longaniza</dd>
+                <dt>Volcan</dt>
+                <dd>Suadero + manchego + tortilla de arina. $25.00</dd>
+            </dl>
+        </section>
+<!-- como se crea una tabla -->
+        <table border="1">
+
+            <tr>
+                <th colspan="4">AGUAS</th>
+            </tr>
+            <tr>
+                <th colspan="2"></th>
+                <th>Vaso</th>
+                <th>Litro</th>
+            </tr>
+            <tr>
+                <td rowspan="2">AGUA</td>
+                <td>Limon</td>
+                <td>$10.00</td>
+                <td>$20.00</td>
+            </tr>
+            <tr>
+                <td>Jamaica</td>
+                <td>$10.00</td>
+                <td>$20.00</td>
+            </tr>
+            <tr>
+                <td rowspan="3">LECHE</td>
+                <td>Horchata</td>
+                <td>$15.00</td>
+                <td>$25.00</td>
+            </tr>
+            <tr>
+                <td>Fresa</td>
+                <td>$15.00</td>
+                <td>$25.00</td>
+            </tr>
+            <tr>
+                <td>Frutas</td>
+                <td>$15.00</td>
+                <td>$25.00</td>
+            </tr>
+        </table>
+<!-- realizar fomularios -->
+        <h2>ORDENE AQUI</h2>
+        <fieldset>
+        <form action="https://formspree.io/f/xvonbwav" method="POST">
+            Nombre*:<input type="text" name="Nombre" value="" placeholder="Ejemplo Juan" required maxlength="20" minlength="3" size="40" >
+            Telefono: <input type="tel" name="Telefono" value= "52" id="" placeholder="lada mas num" maxlength="12" minlength="10">
+            Dirección: <input type="text" name="Dirección" placeholder="Colonia, calle, numero, entre calles" size="40">
+            Correo electronico: <input type="email" placeholder="Ej. ">
+            <p>Tu pedido es para envio a domicilio o recolección en local</p>
+            <input type="radio" name="tipo_de_entrega" id="" value="recolección ">Recolección
+            <input type="radio" name="tipo_de_entrega" id="" value="envio">Envio <br><p></p>
+            <!-- <input type="file" name="archivo" id=""><br> -->
+            ¿Cuando quieres tu pedido? <input type="date" name="calendario" id="" min="2023-03-23" max="2024-05-05"><br>
+           <!-- Orden de tacos -->
+            <p>Orden 1</p>
+            <select name="Orden 1" id="">
+                <option value="Suadero">Suadero</option>
+                <option value="Longaniza">Longaniza</option>
+                <option value="Pastor">Pastor</option>
+                <option value="Chuleta">Chuleta</option>
+                <option value="Campechano">Campechano</option>
+                <option value="Volcan">Volcan</option>
+            </select>
+            Cuantos <input type="number" min="1" max="20">
+            <input type="checkbox" name="Cebolla" id="" value="si"> Cebolla
+            <input type="checkbox" name="Limones" id="" value="si"> Limones
+            <input type="checkbox" name="Cilantro id="" value="si"> Cilantro
+            <input type="checkbox" name="Salsa_Verde" id="" value="si"> Salsa Verde
+            </select>
+
+            <br>
+            <p></p>
+            <input type="submit" value=" 🤩 Ordena ya!!!">
+            <input type="reset" value=" 😱 Borrar">
+
+
+            
+        </form>
+
+
+    </fieldset>
+
+    </main>
+
+    <footer>
+
+
+
+    </footer>
+</body>
+</html>
